@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+int n;
+printf("1 for interpolations\n");
+printf("2 for system of linear equations\n");
+scanf("%d",&n);
+if(n==1)
+{
+system("line.exe");	
+system("interpolation.exe");
+}
+else if(n==2)
+{
+system("line.exe");	
+system("linear.exe");
+}
+else
+printf("not assigner yet\n");
+}
